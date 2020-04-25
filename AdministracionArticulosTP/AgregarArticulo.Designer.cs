@@ -49,37 +49,33 @@
             // txtCodigo
             // 
             this.txtCodigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtCodigo.Location = new System.Drawing.Point(274, 48);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCodigo.Location = new System.Drawing.Point(183, 31);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(234, 26);
+            this.txtCodigo.Size = new System.Drawing.Size(157, 20);
             this.txtCodigo.TabIndex = 0;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(687, 51);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNombre.Location = new System.Drawing.Point(458, 33);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(234, 26);
+            this.txtNombre.Size = new System.Drawing.Size(157, 20);
             this.txtNombre.TabIndex = 1;
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(274, 125);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDescripcion.Location = new System.Drawing.Point(183, 81);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(646, 26);
+            this.txtDescripcion.Size = new System.Drawing.Size(432, 20);
             this.txtDescripcion.TabIndex = 2;
             // 
             // LabelCodigo
             // 
             this.LabelCodigo.AutoSize = true;
             this.LabelCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCodigo.Location = new System.Drawing.Point(69, 52);
-            this.LabelCodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelCodigo.Location = new System.Drawing.Point(46, 34);
             this.LabelCodigo.Name = "LabelCodigo";
-            this.LabelCodigo.Size = new System.Drawing.Size(183, 25);
+            this.LabelCodigo.Size = new System.Drawing.Size(131, 17);
             this.LabelCodigo.TabIndex = 3;
             this.LabelCodigo.Text = "Codigo de Articulo :";
             // 
@@ -87,10 +83,9 @@
             // 
             this.LabelNombre.AutoSize = true;
             this.LabelNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelNombre.Location = new System.Drawing.Point(566, 52);
-            this.LabelNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelNombre.Location = new System.Drawing.Point(377, 34);
             this.LabelNombre.Name = "LabelNombre";
-            this.LabelNombre.Size = new System.Drawing.Size(92, 25);
+            this.LabelNombre.Size = new System.Drawing.Size(66, 17);
             this.LabelNombre.TabIndex = 4;
             this.LabelNombre.Text = "Nombre :";
             // 
@@ -98,10 +93,9 @@
             // 
             this.LabelDescripcion.AutoSize = true;
             this.LabelDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelDescripcion.Location = new System.Drawing.Point(69, 126);
-            this.LabelDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelDescripcion.Location = new System.Drawing.Point(46, 82);
             this.LabelDescripcion.Name = "LabelDescripcion";
-            this.LabelDescripcion.Size = new System.Drawing.Size(125, 25);
+            this.LabelDescripcion.Size = new System.Drawing.Size(90, 17);
             this.LabelDescripcion.TabIndex = 5;
             this.LabelDescripcion.Text = "Descripcion :";
             // 
@@ -109,10 +103,9 @@
             // 
             this.LabelMarca.AutoSize = true;
             this.LabelMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelMarca.Location = new System.Drawing.Point(69, 197);
-            this.LabelMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelMarca.Location = new System.Drawing.Point(46, 128);
             this.LabelMarca.Name = "LabelMarca";
-            this.LabelMarca.Size = new System.Drawing.Size(78, 25);
+            this.LabelMarca.Size = new System.Drawing.Size(55, 17);
             this.LabelMarca.TabIndex = 6;
             this.LabelMarca.Text = "Marca :";
             // 
@@ -120,10 +113,9 @@
             // 
             this.LabelCategoria.AutoSize = true;
             this.LabelCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCategoria.Location = new System.Drawing.Point(566, 197);
-            this.LabelCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelCategoria.Location = new System.Drawing.Point(377, 128);
             this.LabelCategoria.Name = "LabelCategoria";
-            this.LabelCategoria.Size = new System.Drawing.Size(108, 25);
+            this.LabelCategoria.Size = new System.Drawing.Size(77, 17);
             this.LabelCategoria.TabIndex = 7;
             this.LabelCategoria.Text = "Categoria :";
             // 
@@ -131,30 +123,27 @@
             // 
             this.ComboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboMarca.FormattingEnabled = true;
-            this.ComboMarca.Location = new System.Drawing.Point(274, 195);
-            this.ComboMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ComboMarca.Location = new System.Drawing.Point(183, 127);
             this.ComboMarca.Name = "ComboMarca";
-            this.ComboMarca.Size = new System.Drawing.Size(234, 28);
+            this.ComboMarca.Size = new System.Drawing.Size(157, 21);
             this.ComboMarca.TabIndex = 8;
             // 
             // ComboCategoria
             // 
             this.ComboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboCategoria.FormattingEnabled = true;
-            this.ComboCategoria.Location = new System.Drawing.Point(687, 195);
-            this.ComboCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ComboCategoria.Location = new System.Drawing.Point(458, 127);
             this.ComboCategoria.Name = "ComboCategoria";
-            this.ComboCategoria.Size = new System.Drawing.Size(234, 28);
+            this.ComboCategoria.Size = new System.Drawing.Size(157, 21);
             this.ComboCategoria.TabIndex = 9;
             // 
             // LabelImagen
             // 
             this.LabelImagen.AutoSize = true;
             this.LabelImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelImagen.Location = new System.Drawing.Point(69, 275);
-            this.LabelImagen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelImagen.Location = new System.Drawing.Point(46, 179);
             this.LabelImagen.Name = "LabelImagen";
-            this.LabelImagen.Size = new System.Drawing.Size(88, 25);
+            this.LabelImagen.Size = new System.Drawing.Size(62, 17);
             this.LabelImagen.TabIndex = 10;
             this.LabelImagen.Text = "Imagen :";
             // 
@@ -162,28 +151,25 @@
             // 
             this.LabelPrecio.AutoSize = true;
             this.LabelPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelPrecio.Location = new System.Drawing.Point(566, 275);
-            this.LabelPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelPrecio.Location = new System.Drawing.Point(377, 179);
             this.LabelPrecio.Name = "LabelPrecio";
-            this.LabelPrecio.Size = new System.Drawing.Size(78, 25);
+            this.LabelPrecio.Size = new System.Drawing.Size(56, 17);
             this.LabelPrecio.TabIndex = 11;
             this.LabelPrecio.Text = "Precio :";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(687, 274);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPrecio.Location = new System.Drawing.Point(458, 178);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(234, 26);
+            this.txtPrecio.Size = new System.Drawing.Size(157, 20);
             this.txtPrecio.TabIndex = 12;
             this.txtPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecio_KeyPress);
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(42, 332);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnVolver.Location = new System.Drawing.Point(28, 216);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(186, 49);
+            this.btnVolver.Size = new System.Drawing.Size(124, 32);
             this.btnVolver.TabIndex = 13;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -191,10 +177,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(570, 332);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAgregar.Location = new System.Drawing.Point(380, 216);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(324, 49);
+            this.btnAgregar.Size = new System.Drawing.Size(216, 32);
             this.btnAgregar.TabIndex = 14;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -202,19 +187,17 @@
             // 
             // txtImagen
             // 
-            this.txtImagen.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtImagen.Location = new System.Drawing.Point(274, 275);
-            this.txtImagen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtImagen.Location = new System.Drawing.Point(183, 179);
             this.txtImagen.Name = "txtImagen";
-            this.txtImagen.Size = new System.Drawing.Size(234, 26);
+            this.txtImagen.Size = new System.Drawing.Size(157, 20);
             this.txtImagen.TabIndex = 15;
             // 
             // AgregarArticulo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1024, 408);
+            this.ClientSize = new System.Drawing.Size(683, 265);
             this.Controls.Add(this.txtImagen);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnVolver);
@@ -231,7 +214,6 @@
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AgregarArticulo";
