@@ -99,7 +99,8 @@ namespace AdministracionArticulosTP
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("No puede dejar espacios vacios", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
             }
         }
 
