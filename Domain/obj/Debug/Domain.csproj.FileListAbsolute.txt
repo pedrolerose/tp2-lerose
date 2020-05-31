@@ -1,0 +1,6 @@
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\bin\Debug\Domain.dll
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\bin\Debug\Domain.pdb
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\obj\Debug\Domain.dll
+C:\Users\Tape\Desktop\TP2_Lerose\Domain\obj\Debug\Domain.pdb
